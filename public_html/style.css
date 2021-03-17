@@ -1,0 +1,101 @@
+.title,
+.subtitle,
+.menu {
+  width: 1000px;
+  margin: 2rem auto;
+}
+.subtitle, .title {
+  text-align: left;
+}
+section.section{
+  align-self: left;
+  margin-left: 0px;
+}
+.hero-body {
+  background: linear-gradient(to right, #00d2ff, #3a7bd5);
+}
+.menu-label {
+  color: #222;
+}
+.menu-list .menu-label {
+  padding-left: 0em;
+}
+.menu-list > li, .menu-list > li a, .menu-list > li .menu-label, .menu-list > li ul {
+  transition-duration: 0.3s;
+  transition-timing-function: cubic-bezier(1, 0, 1, 0);
+  transition-property: margin, max-height, opacity, background-color, color;
+}
+.menu-list > li, .menu-list > li.is-active .menu-label, .menu-list > li.is-active ul {
+  height: auto;
+  max-height: 500px;
+  opacity: 1;
+}
+.menu-list > li.is-invisible, .menu-list > li .menu-label, .menu-list > li ul {
+  height: auto;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+.menu-list > li:not(.is-active) .menu-label,
+.menu-list > li:not(.is-active) ul {
+  margin: 0;
+}
+.menu-list > li.is-hidden2, .menu-list > li.is-hidden2 a, .menu-list > li.is-hidden2 .menu-label, .menu-list > li.is-hidden2 ul {
+  transition-timing-function: cubic-bezier(0, 1, 0, 1);
+}
+@media (max-width: 765px) {
+  .subtitle, .title {
+    margin: 0 auto;
+    text-align: left;
+  }
+}.title,
+.subtitle,
+.menu {
+  width: 1000px;
+  margin: 2rem auto;
+}
+.subtitle, .title {
+  text-align: left;
+}
+section.section{
+  align-self: left;
+  margin-left: 0px;
+}
+.hero-body {
+  background: linear-gradient(to right, #00d2ff, #3a7bd5);
+}
+.menu-label {
+  color: #222;
+}
+.menu-list .menu-label {
+  padding-left: 0em;
+}
+.menu-list > li, .menu-list > li a, .menu-list > li .menu-label, .menu-list > li ul {
+  transition-duration: 0.3s;
+  transition-timing-function: cubic-bezier(1, 0, 1, 0);
+  transition-property: margin, max-height, opacity, background-color, color;
+}
+.menu-list > li, .menu-list > li.is-active .menu-label, .menu-list > li.is-active ul {
+  height: auto;
+  max-height: 500px;
+  opacity: 1;
+}
+.menu-list > li.is-invisible, .menu-list > li .menu-label, .menu-list > li ul {
+  height: auto;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+.menu-list > li:not(.is-active) .menu-label,
+.menu-list > li:not(.is-active) ul {
+  margin: 0;
+}
+.menu-list > li.is-hidden2, .menu-list > li.is-hidden2 a, .menu-list > li.is-hidden2 .menu-label, .menu-list > li.is-hidden2 ul {
+  transition-timing-function: cubic-bezier(0, 1, 0, 1);
+}
+@media (max-width: 765px) {
+  .subtitle, .title {
+    margin: 0 auto;
+    text-align: left;
+  }
+}
